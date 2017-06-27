@@ -73,7 +73,7 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 * Stockalike Realfuels
  
 
-## Languages
+## Translations
 
 ![](http://i.imgur.com/cXO4NUi.png) Español  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
 ![](http://i.imgur.com/mFRcn0a.png) Русский	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
