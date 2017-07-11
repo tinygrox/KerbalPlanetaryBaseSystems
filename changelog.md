@@ -4,7 +4,7 @@
 * The KSPEdia entries are now locaized automatically
 
 **Localization:**
-* Added localization for russian. Thanks to DrJet
+* Added localization for russian ![](http://i.imgur.com/mFRcn0a.png) . Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)
 
 **Bug Fixes:**
 * Fixed some typos and inacurracies in the english text
@@ -15,8 +15,7 @@
 * Fixes crash of categories when CCK is removed and function filter is enabled
 
 **Localization:**
-* Added localization for spanish. Thanks to Rafael acevedo and fitiales
-
+* Added localization for spanish ![](http://i.imgur.com/cXO4NUi.png) . Thanks to [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)
 
 # v1.4.3
 **Update for KSP 1.3.0:**
@@ -28,7 +27,7 @@
 * Updated CCK
 
 **Mod Support:**
-* Updated and adjusted the configs for USI-LS (thanks to DStaal)
+* Updated and adjusted the configs for USI-LS (thanks to [DStaal](http://forum.kerbalspaceprogram.com/index.php?/profile/155685-dstaal/) and [Merkov](http://forum.kerbalspaceprogram.com/index.php?/profile/165068-merkov/))
 
 **Bug-Fixes:**
 * Fixed negative costs of metal container when empty
@@ -48,7 +47,7 @@
 * The Container Science Bay now satisfies contracts for the materials bay now
 
 **Mod Support:**
-* Improved Habitation Support for Kerbalism (Thanks to ShotgunNinja and schrema)
+* Improved Habitation Support for Kerbalism (Thanks to [ShotgunNinja](http://forum.kerbalspaceprogram.com/index.php?/profile/159391-shotgunninja/) and [schrema](http://forum.kerbalspaceprogram.com/index.php?/profile/170793-schrema/))
 * Added Container for Hydrogen and Nitrogen for Kerbalism
 * Added Survey Station to the Cupola and Central Hub for Extraplanetary Launchpads
 
@@ -296,8 +295,8 @@
 **Bug Fixes:**
 * The Greenhouse container now produces the right amount of food (TAC-LS)
 * The set resource rates for the converters and the greenhouse are now saved
-* The K&K Airfilter Container does work again (thanks to Dr. Jet)
-* Various fixes for CLS passability (thanks to  YaarPodshipnik)
+* The K&K Airfilter Container does work again (thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/))
+* Various fixes for CLS passability (thanks to [Yaar Podshipnik](http://forum.kerbalspaceprogram.com/index.php?/profile/168439-yaar-podshipnik/))
 * Fixed typo in the description of the airfilter
 
 
@@ -312,7 +311,7 @@
 
 # v1.1.3
 **Enhancements:**
-* Added Core-Head mechanism to the ISRU (thanks to sargon14)
+* Added Core-Head mechanism to the ISRU (thanks to [sargon14](https://github.com/sargon14))
 
 **Bug Fixes:**
 * Fixed broken right-click menu for the Central Hub
@@ -328,7 +327,7 @@
 * Increased steering performance of the wheels
 
 **Mod Support:**
-* Rebalanced the support for USI-LS (thanks to ibanix, DStaal and tsaven)
+* Rebalanced the support for USI-LS (thanks to [ibanix](http://forum.kerbalspaceprogram.com/index.php?/profile/147140-ibanix/), [DStaal](http://forum.kerbalspaceprogram.com/index.php?/profile/155685-dstaal/) and [tsaven](http://forum.kerbalspaceprogram.com/index.php?/profile/138869-tsaven/))
 
 **Bug Fixes:**
 * The IVA of the cupola now works correctly when RPM is installed
@@ -350,11 +349,11 @@
 * Rescaled the garages to fit most of the rovers (MaleMute, Buffalo, PackRat)
 * Added Airlock to the Garage Adapter to enter the garages directly
 * The sides of the garages can now be opened separately
-* Enhanced support of KPBS ISRU to fulfil contratcts (thanks to ShotgunNinja)
+* Enhanced support of KPBS ISRU to fulfil contratcts (thanks to [ShotgunNinja](http://forum.kerbalspaceprogram.com/index.php?/profile/159391-shotgunninja/))
 
 **Mod Support:**
 * Added Container to support the Surface Experiment Package
-* Updated support for RealFuels (thanks to Raptor831)
+* Updated support for RealFuels (thanks to [Raptor831](http://forum.kerbalspaceprogram.com/index.php?/profile/68286-raptor831/))
 
 
 # v1.0.12
@@ -383,13 +382,13 @@
 * The Attachable Landing Gear is much more robust and better handable now.
 
 **Mod Support:**
-* Added support for ScanSAT (Thanks to Dr. Jet).
-* Cry-5000 was updated to support latest JSIAdvTransparendPods features (Thanks to JPLRepo).
+* Added support for ScanSAT (Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)).
+* Cry-5000 was updated to support latest JSIAdvTransparendPods features (Thanks to [JPLRepo](http://forum.kerbalspaceprogram.com/index.php?/profile/114736-jplrepo/)).
 
 **Bug Fixes:**
-* Fixed lights going off on expandable parts when loading (again). (Thanks to Svizel).
+* Fixed lights going off on expandable parts when loading (again). (Thanks to [Svizel](https://github.com/Svizel)).
 * Fixed visual appearance of the drills.
-* Excess Fertilizer is not dumped anymore, this closes a hole in the lifecycle for USI-LS (Thanks to Svizel).
+* Excess Fertilizer is not dumped anymore, this closes a hole in the lifecycle for USI-LS (Thanks to [Svizel](https://github.com/Svizel)).
 * Added missing "Transfer Crew" option on deployable parts.
 * The deploy animation of the underside landing leg now works properly again.
 * The syspension of the attachable landing leg now works again.
@@ -398,7 +397,7 @@
 # v1.0.9
 **Mod Support:**
 * Added support for Kerbalism
-* Updated support for DeepFreeze (Thanks to JPLRepo for the update)
+* Updated support for DeepFreeze (Thanks to [JPLRepo](http://forum.kerbalspaceprogram.com/index.php?/profile/114736-jplrepo/) for the update)
 
 **Bug Fixes:**
 * Rewritten IVA logic for the expandable parts. This should prevent kerbals from dissapearing and game crashes when loading a vessel.
@@ -417,7 +416,7 @@
 * Adjusted data storage of the Science Laboratory
 
 **Mod Support:**
-        - Updated support for RPM (new transparent pod feature). Thanks to JPLRepo.
+        - Updated support for RPM (new transparent pod feature). Thanks to [JPLRepo](http://forum.kerbalspaceprogram.com/index.php?/profile/114736-jplrepo/).
 
 **Bug Fix:**
         - The IVA of the Corridor Airlock is now rotated correctly
@@ -453,7 +452,7 @@
 **Bug-Fixes:**
 * The windows of the deployable parts stay lit when returning to a vessel
 * The deprecated/unavailable parts are not shown in the techtree anymore
-* The big water container now have water (thanks to cdp1337)
+* The big water container now have water (thanks to [cdp1337](https://github.com/cdp1337))
 
 
 # v1.0.3
@@ -568,10 +567,10 @@
 * Added Size3 Tri-Coupler
 
 **Enhancements:**
-* The KPBS parts now also satisfy the contracts for bases (thanks to Fraz86), needs ModuleManager
+* The KPBS parts now also satisfy the contracts for bases (thanks to [Fraz86](http://forum.kerbalspaceprogram.com/index.php?/profile/90101-fraz86/)), needs ModuleManager
 * Optimized memory-usage of some parts
 * Removed unimportant debug-outputs from the plugin
-* Restricted passability for CLS to the main nodes on the modules (thanks to Fraz86)
+* Restricted passability for CLS to the main nodes on the modules (thanks to [Fraz86](http://forum.kerbalspaceprogram.com/index.php?/profile/90101-fraz86/))
 
 **New Functionality:**
 * Added science experiment for the greenhouse
@@ -616,7 +615,7 @@
 * Renamed the gangway parts to corridor
 
 **Mod Support:**
-* Added support for DeepFreeze (Cryopods and Container). Thanks to JPLRepo and MerlinsMaster for them!
+* Added support for DeepFreeze (Cryopods and Container). Thanks to [JPLRepo](http://forum.kerbalspaceprogram.com/index.php?/profile/114736-jplrepo/) and [MerlinsMaster](http://forum.kerbalspaceprogram.com/index.php?/profile/112079-merlinsmaster/) for them!
 * Added support for Community-Tech-Tree
 * Updated support for RPM to be compatible with switchable window transparency
 
@@ -740,7 +739,7 @@
 
 **Bug Fixes:**
 *  Habitat MK1 is now in the right science category
-* Several Typos and errors in the descriptions removed. Thanks to Wolf Baginski for pointing them out!
+* Several Typos and errors in the descriptions removed. Thanks to [Wolf Baginski](http://forum.kerbalspaceprogram.com/index.php?/profile/138549-wolf-baginski/) for pointing them out!
 * Scaled and mirrored some flags on the parts to be correct.
 
 
