@@ -71,8 +71,8 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 ![](http://i.imgur.com/JyqfJ1P.png) 中国语文 coming soon
 
 ### Looking for help:  
-If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png)
-(or the other languages that will be supported), please let me know! :) 
+If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png) (or the other  
+languages that will be supported), please let me know!
 
 You can find all the texts that need translation here: [KPBS Texts](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation). (5916 Words)  
 
