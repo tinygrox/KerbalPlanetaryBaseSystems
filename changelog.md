@@ -1,23 +1,4 @@
 
-# v1.5.0
-**Enhancements:**
-*  Storages can now expand to have more storage space
-
-**New Parts:**
-* Added parts for a nuclear reactor
-* Added flatbed part
-* Added Scrap Metal Storege for Extraplanetary Launchpads
-* Added support for the resolve patch of kerbalism
-
-**Mod Support:**
-* Added support for OSE-Workshop
-* Added support for Ground Construction
-* Added adapter from size2 to garage
-
-**Bug Fixes:**
-* Fixed several translation bugs
-
-
 # v1.4.5
 **Enhancements:**
 * The KSPEdia entries are now locaized automatically
