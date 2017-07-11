@@ -13,15 +13,6 @@ designed to fit with the other stock parts and feel as "Kerbal" as possible.
 
 ![](http://i.imgur.com/wBpNMbK.png)
 
-### Looking for help:  
-If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png), Chinese ![](http://i.imgur.com/JyqfJ1P.png) ([in process](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation))  
-(or the other languages that will be supported), please let me know! :) 
-
-You can find all the texts that need translation here: [KPBS Texts](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation). (5916 Words)  
-
-***Important***: Please contact me before you start with the translation. It already happend more than once that  
-multiple persons worked on a translation for the same texts and therefore their efforts were in vain.  
-
 ### Galleries
 
 [![](http://i.imgur.com/hLfApvh.png)](http://imgur.com/a/sCRdv)
@@ -77,7 +68,16 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 
 ![](http://i.imgur.com/cXO4NUi.png) Español  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
 ![](http://i.imgur.com/mFRcn0a.png) Русский	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
- 
+![](http://i.imgur.com/JyqfJ1P.png) 中国语文 coming soon
+
+### Looking for help:  
+If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png), Chinese ![](http://i.imgur.com/JyqfJ1P.png) ([in process](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation))  
+(or the other languages that will be supported), please let me know! :) 
+
+You can find all the texts that need translation here: [KPBS Texts](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation). (5916 Words)  
+
+***Important***: Please contact me before you start with the translation. It already happend more than once that  
+multiple persons worked on a translation for the same texts and therefore their efforts were in vain.  
 
 ## Installation
 
