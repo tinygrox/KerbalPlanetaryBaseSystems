@@ -1,3 +1,22 @@
+# v1.5.0
+**General:**
+* Updated CRP
+
+**New Parts:**
+* Added parts for a nuclear reactor (3x)
+* Added flatbed part
+
+**Mod Support:**
+* Added Scrap Metal Storage for Extraplanetary Launchpads
+* Added support for OSE-Workshop
+* Added support for Ground Construction
+* The Electron and Carbon Extractor can now optionally dump oxygen when TAC-LS is used
+* Updated support for CLS and CTT
+
+**Bug Fixes:**
+* Fixed missing translation bugs (translation pending)
+* Fixed ISRU (and other parts) not being accepted for contracts (will only affect new contracts) 
+
 
 # v1.4.5
 **Enhancements:**

@@ -44,7 +44,7 @@ namespace PlanetarySurfaceStructures
                     true);
 
                 PopupDialog pp = PopupDialog.SpawnPopupDialog(anchormin, anchormax,
-                    new MultiOptionDialog(msg, title, skin, dialogGUIBase), true, HighLogic.UISkin, true,
+                    new MultiOptionDialog(msg, title, title, skin, dialogGUIBase), true, HighLogic.UISkin, true,
                     string.Empty);
             }
         }
@@ -74,7 +74,7 @@ namespace PlanetarySurfaceStructures
             dialogGUIBase[0] = new DialogGUIButton("Ok", delegate { }, true);
 
             PopupDialog.SpawnPopupDialog(anchormin, anchormax,
-                new MultiOptionDialog(msg, title, skin, dialogGUIBase), false, HighLogic.UISkin, true,
+                new MultiOptionDialog(msg, title, title, skin, dialogGUIBase), false, HighLogic.UISkin, true,
                 string.Empty);
         }
 

@@ -79,7 +79,15 @@ namespace PlanetarySurfaceStructures
             int num = all_parts.Count;
             for (int i = 0; i < num; i++)
             {
-                partCategories.Add(all_parts[i].name, all_parts[i].category);
+                try
+                {
+                    partCategories.Add(all_parts[i].name, all_parts[i].category);
+                }
+                catch (ArgumentException e)
+                {
+                    Debug.LogError("[KPBS] Error in filter: " + e.Message);
+                    Debug.LogError("[KPBS] Part: " + all_parts[i].name);
+                }
             }
 
             //save whether life support parts are available
