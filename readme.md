@@ -47,6 +47,7 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 **Gameplay**
 
 * Extraplanetary Launchpads
+* OSE Workshop
 * Kerbal Inventory System (KIS)
 * Kerbal Attachment System (KAS)
 * Connected-Living-Spaces
@@ -56,6 +57,7 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 * KabinKraziness
 * SCANsat
 * (SETI) Community-Tech-Tree
+* Near Future Electrical
 
 **Propulsion**
 
