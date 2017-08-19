@@ -3,7 +3,7 @@
 * Added localization for chinese ![](http://i.imgur.com/JyqfJ1P.png). Thanks to [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)
 
 **Bug Fixes:**
-* Fixed support for Near Future Electrict for the reactor
+* Fixed support for Near Future Electrictal for the reactor
 * Fixed entry costs of small fuel tank
 
 
