@@ -1,3 +1,11 @@
+# v1.5.2
+**Localization:**
+* Updated spanish translation for new parts. Thanks to Thanks to [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/) and [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/)
+* Updated russion translation for new parts. Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)
+
+**Mod Support:**
+* Increased production of the Greenhouse for USI-LS to reasonable values
+
 # v1.5.1
 **Localization:**
 * Added localization for chinese ![](http://i.imgur.com/JyqfJ1P.png). Thanks to [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)
