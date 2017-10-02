@@ -18,14 +18,13 @@ DEPRECATED PARTS
     you can download the parts from here: https://www.dropbox.com/s/ti2vqbqcn5vsxys/PlanetaryBaseInc_Deprecated_Parts.zip?dl=0 
     Copy the "PlanetaryBaseInc" folder from that download into the "GameData" folder of KSP.
 
-TRANSLATIONS
----------------
-    Spanish: Rafael acevedo and fitiales
-
 LICENSING
 ---------------
-	CC-BY-NC 
-	http://creativecommons.org/licenses/by-nc/4.0/
+	The art assets are licensed under: 
+    CC-BY-NC (http://creativecommons.org/licenses/by-nc/4.0/)
+
+    The plugin code is licensed under:
+    APACHE LICENSE, VERSION 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 
 AUTHOR
 ---------------
