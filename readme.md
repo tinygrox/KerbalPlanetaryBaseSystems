@@ -92,9 +92,11 @@ If you encounter a bug with Kerbal Planetary Base Systems, please follow [these 
 
 ## License
 
-CC-BY-NC 
-http://creativecommons.org/licenses/by-nc/4.0/
+The art assets are licensed under:
+[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
 
+The plugin code is licensed under: 
+[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Author
 
