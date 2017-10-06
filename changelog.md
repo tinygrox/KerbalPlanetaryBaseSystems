@@ -1,3 +1,24 @@
+# v1.5.4
+
+**Recompile for KSP 1.3.1**
+
+# v1.5.3
+
+**General:**
+* Updated CCK
+
+**New Parts:**
+* Added drill for dirt for OSE-Workshop
+
+**Bug Fixes:**
+* Added missing light animation to middle and end airlocks
+* Fixed typos from 'save' to 'safe'
+* Fixed IVA of OSE Workshop causing visual artifacts when JSIATP is installed
+* KPBS does not create new files anymore to prevent issues with CKAN
+
+**Misc:**
+* Adapted licenses (there are now two separate licenses for code and assets)
+
 # v1.5.2
 **Localization:**
 * Updated spanish translation for new parts. Thanks to Thanks to [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/) and [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/)

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using KSP.Localization;
 
 namespace PlanetarySurfaceStructures
@@ -9,11 +8,10 @@ namespace PlanetarySurfaceStructures
         [GameParameters.CustomParameterUI("#LOC_KPBS.filtersettings.desc", autoPersistance = true, toolTip = "#LOC_KPBS.filtersettings.tooltip")]
         public bool functionFilter = false;
 
-
         //get the title
         public override string Title {
             get {
-                return Localizer.GetStringByTag("#LOC_KPBS.filtersettings.name");//"Filter Settings";
+                return Localizer.GetStringByTag("#LOC_KPBS.filtersettings.name");
             }
         }
 
@@ -58,7 +56,7 @@ namespace PlanetarySurfaceStructures
 
         public override bool Enabled(MemberInfo member, GameParameters parameters)
         {
-            return true; 
+           return true; 
         }
 
         public override bool Interactible(MemberInfo member, GameParameters parameters)
