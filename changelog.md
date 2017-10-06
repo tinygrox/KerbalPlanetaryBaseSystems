@@ -1,10 +1,11 @@
+# v1.5.4
+
+**Recompile for KSP 1.3.1**
+
 # v1.5.3
 
 **General:**
 * Updated CCK
-
-**Update:**
-* Recompile for KSP 1.3.1
 
 **New Parts:**
 * Added drill for dirt for OSE-Workshop
