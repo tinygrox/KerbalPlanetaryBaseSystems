@@ -1,3 +1,9 @@
+# v1.5.5/v1.5.6
+
+**Bug Fixes:**
+
+* Fixed path of the dirt drill for OSE-Workshop
+
 # v1.5.4
 
 **Recompile for KSP 1.3.1**
