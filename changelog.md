@@ -1,3 +1,21 @@
+# v1.5.7
+**Localization:**
+* Fixed wrong tag for water drill (Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/))
+
+**New Parts:**
+* Added KIS storages in Base profile (2x)
+
+**Bug Fixes:**
+* Fixed missing function category in 1.3.1
+* Added missing particle texture for the drill
+* Container Greenhouse now stores waste instead of waste water (Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/))
+
+**Enhancements:**
+* Added mechanic to transfer Enriched Uranium and Depleted Fuel
+
+**Mod Support:**
+* Adapted greenhouses and algae farm for TAC-LS to be more realistic and reduce need for waste
+
 # v1.5.5/v1.5.6
 
 **Bug Fixes:**
