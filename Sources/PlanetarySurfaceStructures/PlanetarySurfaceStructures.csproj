@@ -52,6 +52,7 @@
     <Compile Include="KPBSScenario.cs" />
     <Compile Include="KPBSSettings.cs" />
     <Compile Include="ModuleKPBSMeshToggle.cs" />
+    <Compile Include="ModuleKPBSNuclearStorage.cs" />
     <Compile Include="ModuleKPBSTransparendPodHelper.cs" />
     <Compile Include="ModuleKPBSDependentLight.cs" />
     <Compile Include="KPBSConfiguration.cs" />
