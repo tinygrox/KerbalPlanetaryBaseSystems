@@ -1,3 +1,22 @@
+# v1.5.8
+
+**Enhancements:**
+* HAL and MAL can hibernate now
+
+**Localization:**
+* Updated chinese localization (Thanks to [EthanWang706](https://github.com/EthanWang706))
+
+**Mod Support:**
+* Change resource capacity of oxygen container for TAC-LS
+* Added Science Experiment for USI-LS Greenhouse. (Thanks to [flart](https://forum.kerbalspaceprogram.com/index.php?/profile/181486-flart/))
+* Updated Support for USI-LS (Thanks to [tsaven](https://forum.kerbalspaceprogram.com/index.php?/profile/138869-tsaven/))
+        
+**Bug Fixes:**
+* Fixed bug preventing depleted fuel from being transferred
+* Fixed bugs relating to ModuleManager 3.0.1  (Thanks to [Phlosioneer](https://github.com/Phlosioneer))
+* Fixed IVA of OSE workshop causing artifacts when JSIATP is installed
+* Added missing particle effects to the garage decoupler
+        
 # v1.5.7
 **Localization:**
 * Fixed wrong tag for water drill (Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/))
