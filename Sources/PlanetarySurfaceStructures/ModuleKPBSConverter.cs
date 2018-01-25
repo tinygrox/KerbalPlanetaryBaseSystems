@@ -45,11 +45,6 @@ namespace PlanetarySurfaceStructures
                 Fields["dumpOxygen"].guiActive = false;
                 Fields["dumpOxygen"].guiActiveEditor = false;
             }
-
-            part.highlightColor.r = 0.33f;
-            part.highlightColor.g = 0.635f;
-            part.highlightColor.b = 0.87f;
-            part.Highlight(true);
         }
         
 

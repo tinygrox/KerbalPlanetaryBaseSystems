@@ -64,10 +64,10 @@ namespace PlanetarySurfaceStructures
         private int targetIndex = -1;
 
         //List of parts to transfer to
-        private List<ModuleKPBSNuclearStorage> transferCandidates = new List<ModuleKPBSNuclearStorage>();
+        private List<Part> transferCandidates = new List<Part>();
 
         //The part to transfer fuel to
-        private ModuleKPBSNuclearStorage transferTarget = null;
+        private Part transferTarget = null;
 
         //Bool whether this part is the target for transfer
         private bool isTarget = false;
@@ -105,7 +105,8 @@ namespace PlanetarySurfaceStructures
             {
                 transferCandidates = getTransferCandidates(fuelResource);
 
-                if ((transferCandidates != null) && (transferCandidates.Count > 0)) {
+                if ((transferCandidates != null) && (transferCandidates.Count > 0))
+                {
                     state = Transferstate.SELECTING_FUEL;
                     status = Localizer.Format("#LOC_KPBS.nuclearfuel.status.selecting", PartResourceLibrary.Instance.GetDefinition(fuelResource).displayName);
                     nextTarget();
@@ -165,7 +166,7 @@ namespace PlanetarySurfaceStructures
             {
                 if ((transferCandidates != null) && (targetIndex < transferCandidates.Count))
                 {
-                    transferCandidates[targetIndex].IsTarget = false;
+                    setTarget(transferCandidates[targetIndex], false);
                 }
             }
             targetIndex++;
@@ -173,8 +174,8 @@ namespace PlanetarySurfaceStructures
             {
                 targetIndex = 0;
             }
-            transferCandidates[targetIndex].IsTarget = true;
-            
+            setTarget(transferCandidates[targetIndex], true);
+
             updateUI();
         }
 
@@ -188,16 +189,16 @@ namespace PlanetarySurfaceStructures
             {
                 if ((transferCandidates != null) && (targetIndex < transferCandidates.Count))
                 {
-                    transferCandidates[targetIndex].IsTarget = false;
+                    setTarget(transferCandidates[targetIndex], false);
                 }
             }
             targetIndex--;
             if (targetIndex < 0)
             {
-                targetIndex = transferCandidates.Count-1;
+                targetIndex = transferCandidates.Count - 1;
             }
-            transferCandidates[targetIndex].IsTarget = true;
-            
+            setTarget(transferCandidates[targetIndex], true);
+
             updateUI();
         }
 
@@ -241,13 +242,13 @@ namespace PlanetarySurfaceStructures
         {
             if ((transferCandidates != null) && (targetIndex >= 0) && (targetIndex < transferCandidates.Count))
             {
-                transferCandidates[targetIndex].IsTarget = false;
+                setTarget(transferCandidates[targetIndex], false);
                 transferCandidates.Clear();
                 targetIndex = -1;
             }
             if (transferTarget != null)
             {
-                transferTarget.IsTarget = false;
+                setTarget(transferTarget, false);
                 transferTarget = null;
             }
             state = Transferstate.IDLE;
@@ -305,7 +306,7 @@ namespace PlanetarySurfaceStructures
                 if (state == Transferstate.TRANSFERING_FUEL)
                 {
                     double amount = Math.Min(transferRate * TimeWarp.deltaTime, part.Resources[fuelResource].amount);
-                    double transferedAmount = transferTarget.receive(fuelResource, amount);
+                    double transferedAmount = receive(transferTarget, fuelResource, amount);
 
                     part.Resources[fuelResource].amount -= transferedAmount;
                     if (part.Resources[fuelResource].amount < 0)
@@ -314,14 +315,15 @@ namespace PlanetarySurfaceStructures
                     }
 
 
-                    if ((amount > transferedAmount) || (part.Resources[fuelResource].amount == 0)) {
+                    if ((amount > transferedAmount) || (part.Resources[fuelResource].amount == 0))
+                    {
                         cancelTransfer();
                     }
                 }
                 else if (state == Transferstate.TRANSFERING_WASTE)
                 {
                     double amount = Math.Min(transferRate * TimeWarp.deltaTime, part.Resources[wasteResource].amount);
-                    double transferedAmount = transferTarget.receive(wasteResource, amount);
+                    double transferedAmount = receive(transferTarget, wasteResource, amount);
 
                     part.Resources[wasteResource].amount -= transferedAmount;
                     if (part.Resources[wasteResource].amount < 0)
@@ -337,9 +339,9 @@ namespace PlanetarySurfaceStructures
                 }
             }
 
-            if (isTarget)
+            if (transferTarget != null)
             {
-                part.Highlight(true);
+                transferTarget.Highlight(true);
             }
         }
 
@@ -408,18 +410,18 @@ namespace PlanetarySurfaceStructures
         /// </summary>
         /// <param name="amount">The amount received</param>
         /// <returns>The amount that can be added</returns>
-        public double receive(string resource,double amount)
+        public double receive(Part target, string resource, double amount)
         {
-            if (!part.Resources.Contains(resource))
+            if (!target.Resources.Contains(resource))
             {
                 return 0.0;
             }
 
-            double newAmount = Math.Min(part.Resources[resource].maxAmount - part.Resources[resource].amount, amount);
-            part.Resources[resource].amount += newAmount;
-            if (part.Resources[resource].amount > part.Resources[resource].maxAmount)
+            double newAmount = Math.Min(target.Resources[resource].maxAmount - target.Resources[resource].amount, amount);
+            target.Resources[resource].amount += newAmount;
+            if (target.Resources[resource].amount > target.Resources[resource].maxAmount)
             {
-                part.Resources[resource].amount = part.Resources[resource].maxAmount;
+                target.Resources[resource].amount = target.Resources[resource].maxAmount;
             }
 
             return newAmount;
@@ -429,20 +431,20 @@ namespace PlanetarySurfaceStructures
         /// Returns whether the part of this module can receive the specified resource
         /// </summary>
         /// <returns>True, when waste can be received, else false</returns>
-        public bool canReceive(string resource)
+        public bool canReceive(Part targetPart, string resource)
         {
-            if (!part.Resources.Contains(resource))
+            if (!targetPart.Resources.Contains(resource))
             {
-                //Debug.Log("[KPBS] Part " + part.partName + " does not have any " + resource);
                 return false;
             }
             else
             {
-                if (part.Resources[resource].amount < part.Resources[resource].maxAmount)
+                if (targetPart.Resources[resource].amount < targetPart.Resources[resource].maxAmount)
                 {
+                    List<BaseConverter> converter = targetPart.FindModulesImplementing<BaseConverter>();
+
                     if (converter == null)
                     {
-                        //Debug.Log("[KPBS] Part " + part.partName + " is full of " + resource);
                         return true;
                     }
 
@@ -493,55 +495,56 @@ namespace PlanetarySurfaceStructures
             return part.Resources.Contains(resource) && (part.Resources[resource].amount > 0);
         }
 
-        
+
         /// <summary>
         /// Get the list of all possible targets for nuclear fuel
         /// </summary>
         /// <returns></returns>
-        private List<ModuleKPBSNuclearStorage> getTransferCandidates(string fuel)
+        private List<Part> getTransferCandidates(string fuel)
         {
-            List<ModuleKPBSNuclearStorage> modules = vessel.FindPartModulesImplementing<ModuleKPBSNuclearStorage>();
-            //Debug.Log("[KPBS] Found Modules: " + modules.Count);
+            List<Part> candidates = new List<Part>();
 
-            List<ModuleKPBSNuclearStorage> candidates = new List<ModuleKPBSNuclearStorage>();
-            for (int i = 0; i < modules.Count; i++)
+            for (int i = 0; i < vessel.parts.Count; i++)
             {
-                if (modules[i].canReceive(fuel) && modules[i] != this)
+                if (vessel.parts[i] != part && canReceive(vessel.parts[i], fuel))
                 {
-                    //Debug.Log("[KPBS] Adding module: " + i);
-                    candidates.Add(modules[i]);
+                    candidates.Add(vessel.parts[i]);
                 }
             }
+
+            //List<ModuleKerbetrotterNuclearStorage> modules = vessel  //vessel.FindPartModulesImplementing<ModuleKerbetrotterNuclearStorage>();
+            //Debug.Log("[KPBS] Found Modules: " + modules.Count);
+
+            //List<ModuleKerbetrotterNuclearStorage> candidates = new List<ModuleKerbetrotterNuclearStorage>();
+            //for (int i = 0; i < modules.Count; i++)
+            //{
+            //if (modules[i].canReceive(fuel) && modules[i] != this)
+            // {
+            //Debug.Log("[KPBS] Adding module: " + i);
+            //candidates.Add(modules[i]);
+            //}
+            //}
             return candidates;
         }
 
-        //Get and Set wheter this part is the target for a fuel transfer
-        public bool IsTarget
+        private void setTarget(Part target, bool isTarget)
         {
-            get
+            if (isTarget)
             {
-                return isTarget;
+                Debug.Log("LYNX_NUCLEAR: Setting Target: " + target.name);
+                target.highlightColor.r = transferColor.r;
+                target.highlightColor.g = transferColor.g;
+                target.highlightColor.b = transferColor.b;
+                target.Highlight(true);
             }
-            set
+            //set the default highlight color
+            else
             {
-                isTarget = value;
-                //set the transfer highlicht color
-                if (isTarget)
-                {
-                    
-                    part.highlightColor.r = transferColor.r;
-                    part.highlightColor.g = transferColor.g;
-                    part.highlightColor.b = transferColor.b;
-                    part.Highlight(true);
-                }
-                //set the default highlight color
-                else
-                {
-                    part.highlightColor.r = defaultColor.r;
-                    part.highlightColor.g = defaultColor.g;
-                    part.highlightColor.b = defaultColor.b;
-                    part.Highlight(false);
-                }
+                Debug.Log("LYNX_NUCLEAR: Resetting Target: " + target.name);
+                target.highlightColor.r = defaultColor.r;
+                target.highlightColor.g = defaultColor.g;
+                target.highlightColor.b = defaultColor.b;
+                target.Highlight(false);
             }
         }
 
