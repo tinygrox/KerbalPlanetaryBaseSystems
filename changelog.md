@@ -1,5 +1,8 @@
 # v1.5.9
 
+**General:**
+* Updated CCK to version 0.8.0.0
+
 **Localization:**
 * Fixed cropped text for russian KSPedia. Thanks to [Sebra](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)
 
