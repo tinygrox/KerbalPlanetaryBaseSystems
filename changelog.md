@@ -1,3 +1,14 @@
+# v1.5.9
+
+**Localization:**
+* Fixed cropped text for russian KSPedia. Thanks to [Sebra](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)
+
+**Enhancements:**
+* The storage of nuclear fuel can now transfer to all nuclear fuel storage instead of KPBS only
+
+**Bug Fixes:**
+* Fixed erroneously blue highlighting of the converter
+
 # v1.5.8
 
 **Enhancements:**
@@ -18,6 +29,7 @@
 * Added missing particle effects to the garage decoupler
         
 # v1.5.7
+
 **Localization:**
 * Fixed wrong tag for water drill (Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/))
 
@@ -65,7 +77,7 @@
 # v1.5.2
 **Localization:**
 * Updated spanish translation for new parts. Thanks to Thanks to [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/) and [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/)
-* Updated russion translation for new parts. Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)
+* Updated russian translation for new parts. Thanks to [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)
 
 **Mod Support:**
 * Increased production of the Greenhouse for USI-LS to reasonable values
