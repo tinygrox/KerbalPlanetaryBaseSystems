@@ -10,7 +10,7 @@
 
 **Mod Support:**
 
-* Rebalancing for USI-LS (thanks to tsaven). WARNING: Check your bases!!!
+* Rebalancing for USI-LS (Thanks to [tsaven](https://forum.kerbalspaceprogram.com/index.php?/profile/138869-tsaven/)). WARNING: Check your bases!!!
 
 **Bug Fixes:**
 
