@@ -8,6 +8,10 @@
 * Updated CRP to version 0.3.0.0
 * Updated KSPModFileLocalizer to version 0.2.1.11
 
+**Mod Support:**
+
+* Rebalancing for USI-LS (thanks to tsaven). WARNING: Check your bases!!!
+
 **Bug Fixes:**
 
 * Fixed missing "transfer crew" option on extendible parts
