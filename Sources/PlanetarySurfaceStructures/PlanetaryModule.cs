@@ -248,12 +248,14 @@ namespace PlanetarySurfaceStructures
                         status = "Deployed";
                         moduleStatus = ModuleState.Deployed;
                         part.CrewCapacity = crewCapacityDeployed;
+                        part.CheckTransferDialog();
                     }
                     else
                     {
                         status = "Deploying..";
                         moduleStatus = ModuleState.Deploying;
                         part.CrewCapacity = crewCapacityDeployed;
+                        part.CheckTransferDialog();
                     }
                     deployAnim[animationName].speed = 1f;
                 }
@@ -270,6 +272,7 @@ namespace PlanetarySurfaceStructures
                         moduleStatus = ModuleState.Retracting;
                     }
                     part.CrewCapacity = crewCapcityRetracted;
+                    part.CheckTransferDialog();
 
                     deployAnim[animationName].speed = -1f;
                 }
@@ -347,6 +350,7 @@ namespace PlanetarySurfaceStructures
                         if (part.CrewCapacity != crewCapacityDeployed)
 						{
 							part.CrewCapacity = crewCapacityDeployed;
+                            part.CheckTransferDialog();
                             GameEvents.onVesselWasModified.Fire(vessel);
 						}
 						
@@ -398,6 +402,7 @@ namespace PlanetarySurfaceStructures
 					if (part.CrewCapacity != crewCapcityRetracted)
                     {
                         part.CrewCapacity = crewCapcityRetracted;
+                        part.CheckTransferDialog();
                         GameEvents.onVesselWasModified.Fire(vessel);
                     } 
                 }

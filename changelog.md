@@ -1,3 +1,17 @@
+# v1.5.10
+
+**General:**
+
+
+* Recompile for KSP 1.4
+* Updated CCK to version 0.9.0.0
+* Updated CRP to version 0.3.0.0
+* Updated KSPModFileLocalizer to version 0.2.1.11
+
+**Bug Fixes:**
+
+* Fixed missing "transfer crew" option on extendible parts
+
 # v1.5.9
 
 **General:**
