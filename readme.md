@@ -71,9 +71,9 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 ![](http://i.imgur.com/cXO4NUi.png) Español  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
 ![](http://i.imgur.com/mFRcn0a.png) Русский	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
 ![](http://i.imgur.com/JyqfJ1P.png) 中国语文 by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)
+
 ### Looking for help:  
-If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png) (or the other  
-languages that will be supported), please let me know!
+If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png), French ![](https://i.imgur.com/r27hbde.png), Italian ![](https://i.imgur.com/qg9rZcs.png) or Brazilian Portuguese ![](https://i.imgur.com/THVD1ot.jpg), please let me know!
 
 You can find all the texts that need translation here: [KPBS Texts](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation). (5916 Words)  
 
