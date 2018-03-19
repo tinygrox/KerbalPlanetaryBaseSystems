@@ -1,3 +1,19 @@
+# v1.6.0
+**General:**
+
+* Recompile for KSP 1.4.1
+* Updated KSPModFileLocalizer to version 0.2.3.0
+
+**Localization:**
+
+* Added localization for german (thanks to DasSkelett)
+
+**Bug Fixes:**
+
+* Fixed missing texture of rear airlock when IVA overlay is enabled
+* Fixed bugs for landing gear
+* Fixed error while loading water drill
+
 # v1.5.10
 
 **General:**
