@@ -6,7 +6,7 @@
 
 **Localization:**
 
-* Added localization for german (Thanks to [DasSkelett](https://github.com/DasSkelett)
+* Added localization for german (Thanks to [DasSkelett](https://github.com/DasSkelett))
 
 **Bug Fixes:**
 
