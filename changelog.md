@@ -1,3 +1,13 @@
+# v1.6.1
+**General:**
+
+* Updated CRP
+* Updated CCK
+
+**Bug Fixes:**
+
+* Removed artifacts on central hub and fixed ladders/airlock
+
 # v1.6.0
 **General:**
 
