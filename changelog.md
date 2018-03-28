@@ -5,13 +5,13 @@
 
 **Localization:**
 
-* Added localization for italian (thanks to Simog)
-* Updated/corrected russian localization (thanks to Sebra)
+* Added localization for italian (thanks to [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/179328-simog/))
+* Updated/corrected russian localization (thanks to [Sebra](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/))
 
 **Mod Support:**
 
-* Added support for PlantGrowthExperiment from SSPX (thanks to LatiMacciato)
-* Enhanced support for Kerbalism (thanks to player101)
+* Added support for PlantGrowthExperiment from SSPX (thanks to [LatiMacciato](https://forum.kerbalspaceprogram.com/index.php?/profile/165597-latimacciato/))
+* Enhanced support for Kerbalism (thanks to [player101](https://forum.kerbalspaceprogram.com/index.php?/profile/186751-player101/))
 
 **Bug Fixes:**
         
