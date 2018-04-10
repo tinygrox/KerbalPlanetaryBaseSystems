@@ -9,7 +9,7 @@
 
 **Mod Support:**
 
-* Updated support for Extraplanetary Launchpads v6.0 (thanks to LatiMacciato)    
+* Updated support for Extraplanetary Launchpads v6.0 (thanks to [LatiMacciato](https://forum.kerbalspaceprogram.com/index.php?/profile/165597-latimacciato/))    
 
 # v1.6.2
 **General:**
