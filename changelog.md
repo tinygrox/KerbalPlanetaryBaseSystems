@@ -5,6 +5,7 @@
 
 **Localization:**
 
+* Fixed some errors in german localization (thanks to [DasSkelett](https://github.com/DasSkelett))
 
 **Mod Support:**
 
