@@ -1,3 +1,15 @@
+# v1.6.3
+**General:**
+
+* Recompile for KSP 1.4.2
+
+**Localization:**
+
+
+**Mod Support:**
+
+* Updated support for Extraplanetary Launchpads v6.0 (thanks to LatiMacciato)    
+
 # v1.6.2
 **General:**
 
