@@ -1,3 +1,17 @@
+# v1.6.4
+**General:**
+
+* Recompile for KSP 1.4.3
+* Updated KSPModFileLocalizer to version 0.2.3.1
+  
+**Mod Support:**
+
+* Updated support for Kerbalism (thanks to [madman2003](https://github.com/madman2003))
+
+**Bug Fixes:**
+
+* Fixed Launchpad not funtioning as launchpad for EPL
+
 # v1.6.3
 **General:**
 
