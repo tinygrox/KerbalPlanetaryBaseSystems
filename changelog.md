@@ -2,7 +2,7 @@
 **General:**
 
 * Recompile for KSP 1.4.3
-* Updated KSPModFileLocalizer to version 0.2.3.1
+* Updated KSPModFileLocalizer to version 0.2.3.2
   
 **Mod Support:**
 
