@@ -1,3 +1,23 @@
+# v1.6.5
+**General:**
+
+* Recompile for KSP 1.4.5
+
+**Enhancements:**
+
+* The nuclear reactor does not stop when EC if full
+
+**Mod Support:**
+
+* Corrected Hydrogen output of elektron for TAC-LS  
+        
+**Bug Fixes:**
+
+* All converters now show what they are converting
+* Fixed IVA of the Central Hub for JSI-ATP
+* Fixed Tech-Tree node when USI-LS and CTT are installed at the same time
+* Fixed some typos in the english KSPedia
+        
 # v1.6.4
 **General:**
 
