@@ -112,7 +112,7 @@ namespace PlanetarySurfaceStructures
         /**
 		 * The action that can be used for makros to toggle the state of the module
 		 */
-        [KSPAction("#LOC_KPBS.planetarymodule.event.toggle")]
+        [KSPAction("#LOC_KPBS.planetarymodule.action.toggle")]
         public void toggleAction(KSPActionParam param) 
 		{
             if ((availableInVessel) && (!(moduleStatus == ModuleState.Deployed) || (this.part.protoModuleCrew.Count <= crewCapcityRetracted))) {
