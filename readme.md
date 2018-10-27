@@ -70,8 +70,8 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 
 ![](http://i.imgur.com/cXO4NUi.png) Español  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
 ![](http://i.imgur.com/mFRcn0a.png) Русский	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
-![](http://i.imgur.com/JyqfJ1P.png) 中国语文 by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)  
-![](http://i.imgur.com/SuHOnKm.png) 中国语文 by [Nils277](https://forum.kerbalspaceprogram.com/index.php?/profile/122414-nils277/) and [DasSkelett](https://forum.kerbalspaceprogram.com/index.php?/profile/188118-dasskelett/)  
+![](http://i.imgur.com/JyqfJ1P.png) 简体中文 by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)  
+![](http://i.imgur.com/SuHOnKm.png) Deutsch by [Nils277](https://forum.kerbalspaceprogram.com/index.php?/profile/122414-nils277/) and [DasSkelett](https://forum.kerbalspaceprogram.com/index.php?/profile/188118-dasskelett/)  
 ![](https://i.imgur.com/qg9rZcs.png) Italiano by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)  
 
 ### Looking for help:  
