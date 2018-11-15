@@ -1,3 +1,21 @@
+# v1.6.6
+**General:**
+
+* Recompile for KSP 1.5.1
+* Updated CCK to version 4.0.0.0
+* Updated CRP to version 1.0.0.0
+
+**Mod Support:**
+
+* Updated support for Kerbalism (thanks to [IrisBlanche](https://github.com/IrisBlanche))
+* Updated support for KAS 1.0
+
+**Bug Fixes:**
+
+* Fixes and clean up of chinese translations (thanks to [EthanWang706](https://github.com/EthanWang706))
+* Fix of a tag for the planetary module (thanks to [madman2003](https://github.com/madman2003))
+* Fixed missing colons in some MM patches (thanks to [MaximeBrean](https://github.com/MaximeBrean))
+
 # v1.6.5
 **General:**
 
