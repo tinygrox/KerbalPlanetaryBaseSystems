@@ -1,3 +1,23 @@
+# v1.6.7
+**General:**
+
+* Recompile for KSP 1.6.1
+* Updated KSPModFileLocalizer to version 0.2.3.3 
+
+**Localization:**
+
+* Added partial translation for Brazilian Portuguese (thanks to [VaPal](https://forum.kerbalspaceprogram.com/index.php?/profile/150974-vapal/), [MaximumThrust](https://forum.kerbalspaceprogram.com/index.php?/profile/185090-maximumthrust/), [Daniel Prates](https://forum.kerbalspaceprogram.com/index.php?/profile/172769-daniel-prates/) and [MarcosEduardo2007](https://kerbal.curseforge.com/members/MarcosEduardo2007))
+        
+**Mod Support:**
+
+* Added support for GPO SpeedFuelPump (thanks to [Gordon Dry](https://forum.kerbalspaceprogram.com/index.php?/profile/163177-gordon-dry/))
+        
+**Bug Fixes:**
+
+* Fixed support for Extraplanetary Launchpads
+* Fixed missing bulkhead profiles
+* KIS container are not visible anymore when KIS is not installed
+
 # v1.6.6
 **General:**
 
