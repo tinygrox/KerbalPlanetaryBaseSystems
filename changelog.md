@@ -1,3 +1,28 @@
+# v1.6.8
+**General:**
+
+* Updated CCK to version 4.1.0.0
+* Updated CRP to version 1.1.0.0
+
+**Enhancements:**
+
+* Increased EVA interaction distance for science bay
+
+**Mod Support:**
+
+* Updated support for USI-LS. (thanks to [DoktorKrogg](https://forum.kerbalspaceprogram.com/index.php?/profile/177484-doktorkrogg/) and [Tonka Crash](https://forum.kerbalspaceprogram.com/index.php?/profile/189552-tonka-crash/))
+* Enhanced support for Snacks (thanks to [HSJasperism](https://github.com/HSJasperism))
+* Fixed support for JIATP for the Cry 5000
+
+**Localization:**
+
+* Fixed a whole lot of typos (thanks to [HSJasperism](https://github.com/HSJasperism) and [don-vip](https://github.com/don-vip))
+* Added localization for french. (thanks to [don-vip](https://github.com/don-vip))
+
+**Bug Fixes:**
+
+* Fixed error message of science bay
+
 # v1.6.7
 **General:**
 
