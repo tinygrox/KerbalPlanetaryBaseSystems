@@ -10,14 +10,14 @@
 
 **Mod Support:**
 
-* Updated support for USI-LS. (thanks to DoktorKrogg and Tonka Crash)
-* Enhanced support for Snacks (thanks to HSJasperism)
+* Updated support for USI-LS. (thanks to [DoktorKrogg](https://forum.kerbalspaceprogram.com/index.php?/profile/177484-doktorkrogg/) and [Tonka Crash](https://forum.kerbalspaceprogram.com/index.php?/profile/189552-tonka-crash/))
+* Enhanced support for Snacks (thanks to [HSJasperism](https://github.com/HSJasperism))
 * Fixed support for JIATP for the Cry 5000
 
 **Localization:**
 
-* Fixed a whole lot of typos (thanks to HSJasperism and don-vip)
-* Added localization for french. (thanks to don-vip)
+* Fixed a whole lot of typos (thanks to [HSJasperism](https://github.com/HSJasperism) and [don-vip](https://github.com/don-vip))
+* Added localization for french. (thanks to [don-vip](https://github.com/don-vip))
 
 **Bug Fixes:**
 
