@@ -83,7 +83,7 @@ namespace PlanetarySurfaceStructures
         }
 
         //upgrade the save file
-        public override void OnUpgrade(ConfigNode node, LoadContext loadContext)
+        public override void OnUpgrade(ConfigNode node, LoadContext loadContext, ConfigNode ParentNode)
         {
             //when the part of a craft should be upgraded
             if (loadContext == LoadContext.Craft)
@@ -92,7 +92,7 @@ namespace PlanetarySurfaceStructures
             }
             else if (loadContext == LoadContext.SFS)
             {
-                string partName = NodeUtil.GetPartNodeName(node, loadContext);
+                string partName = NodeUtil.GetPartNodeNameValue(node, loadContext);
                 
                 //iterate over all vessels in the savefile
                 ConfigNode[] vessels = node.GetNode("FLIGHTSTATE").GetNodes("VESSEL");
@@ -111,7 +111,7 @@ namespace PlanetarySurfaceStructures
         //Check of the parts has to be upgraded
         private TestResult checkPart(ConfigNode part, LoadContext loadContext)
         {
-            string partName = NodeUtil.GetPartNodeName(part, loadContext).Split('_')[0];
+            string partName = NodeUtil.GetPartNodeNameValue(part, loadContext).Split('_')[0];
             string[] attachementNodes = part.GetValues("attN");
             switch (partName)
             {
@@ -168,7 +168,7 @@ namespace PlanetarySurfaceStructures
         //Upgrade the part
         private void upgradePart(ConfigNode part, LoadContext loadContext)
         {
-            string partName = NodeUtil.GetPartNodeName(part, loadContext).Split('_')[0];
+            string partName = NodeUtil.GetPartNodeNameValue(part, loadContext).Split('_')[0];
             string[] attachementNodes = part.GetValues("attN");
 
             switch (partName)
