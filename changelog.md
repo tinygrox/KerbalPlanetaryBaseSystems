@@ -1,3 +1,12 @@
+# v1.6.9
+**General:**
+
+* Recompile for KSP 1.7.0 (thanks to [Tonka Crash](https://forum.kerbalspaceprogram.com/index.php?/profile/189552-tonka-crash/)), the Modules now work again!
+
+**Mod Support:**
+
+* Highly improved support for KAS with the flexible tube (thanks to [IgorZ](https://forum.kerbalspaceprogram.com/index.php?/profile/155445-igorz/)), it behaves like the old version now.
+
 # v1.6.8
 **General:**
 
