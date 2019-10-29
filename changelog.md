@@ -1,3 +1,26 @@
+# v1.6.10
+**General:**
+
+* Recompile for KSP 1.8.0
+* Reexproted textures to be all encoded in DXT5
+* Recompiled the KSPedia pages
+* Updated CCK to version 4.3.0.0/5.0.0.0
+* Updated CRP to version 1.3.0.0
+* Updated KSPModFileLocalizer to vesion 0.2.3.4
+
+**Localization:**
+
+* Fixed encoding of brazilian portuguese translation (thanks to [AluisioASG](https://github.com/AluisioASG))
+        
+**Mod Support:**
+
+* Added radiation support for Kerbalism (thanks to [Shiolle](https://github.com/Shiolle))
+* Fixed production rates for greenhouse for Kerbalism (thanks to [Odieman1](https://github.com/Odieman1))
+
+**Bug Fixes:**
+
+* KSPedia entries should be available in French now
+
 # v1.6.9
 **General:**
 

@@ -99,67 +99,83 @@ namespace PlanetarySurfaceStructures
                 string errors = string.Empty;
 
                 //load the icons
-                if (!icon_surface_structures.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/KPBSicon.png")))
+                icon_filter_pods = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_pods", false);
+                icon_filter_engine = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_engine", false);
+                icon_filter_fuel = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_fueltank", false);
+                icon_filter_payload = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_payload", false);
+                icon_filter_construction = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_construction", false);
+                icon_filter_coupling = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_coupling", false);
+                icon_filter_electrical = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_electrical", false);
+                icon_filter_ground = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_ground", false);
+                icon_filter_utility = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_utility", false);
+                icon_filter_science = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_science", false);
+                icon_filter_thermal = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/filter_thermal", false);
+
+                icon_surface_structures = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/KPBSicon", false); 
+                icon_category_ls = GameDatabase.Instance.GetTexture("PlanetaryBaseInc/BaseSystem/Icons/KPBSCategoryLifeSupport", false);
+
+
+                if (icon_surface_structures == null)
                 {
                     errors += "KPBSicon.png ";
                     isValid = false;
                 }
-                if (!icon_category_ls.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/KPBSCategoryLifeSupport.png")))
+                if (icon_category_ls == null)
                 {
                     errors += "KPBSCategoryLifeSupport.png ";
                     isValid = false;
                 }
-                if (!icon_filter_pods.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_pods.png")))
+                if (icon_filter_pods == null)
                 {
                     errors += "ilter_pods.png ";
                     isValid = false;
                 }
-                if (!icon_filter_fuel.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_fueltank.png")))
+                if (icon_filter_fuel == null)
                 {
                     errors += "filter_fueltank.png ";
                     isValid = false;
                 }
-                if (!icon_filter_electrical.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_electrical.png")))
+                if (icon_filter_electrical == null)
                 {
                     errors += "filter_electrical.png ";
                     isValid = false;
                 }
-                if (!icon_filter_thermal.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_thermal.png")))
+                if (icon_filter_thermal == null)
                 {
                     errors += "filter_thermal.png ";
                     isValid = false;
                 }
-                if (!icon_filter_science.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_science.png")))
+                if (icon_filter_science == null)
                 {
                     errors += "filter_science.png ";
                     isValid = false;
                 }
-                if (!icon_filter_engine.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_engine.png")))
+                if (icon_filter_engine == null)
                 {
                     errors += "filter_engine.png ";
                     isValid = false;
                 }
-                if (!icon_filter_ground.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_ground.png")))
+                if (icon_filter_ground == null)
                 {
                     errors += "filter_ground.png ";
                     isValid = false;
                 }
-                if (!icon_filter_coupling.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_coupling.png")))
+                if (icon_filter_coupling == null)
                 {
                     errors += "filter_coupling.png ";
                     isValid = false;
                 }
-                if (!icon_filter_payload.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_payload.png")))
+                if (icon_filter_payload == null)
                 {
                     errors += "filter_payload.png ";
                     isValid = false;
                 }
-                if (!icon_filter_construction.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_construction.png")))
+                if (icon_filter_construction == null)
                 {
                     errors += "filter_construction.png ";
                     isValid = false;
                 }
-                if (!icon_filter_utility.LoadImage(File.ReadAllBytes("GameData/PlanetaryBaseInc/BaseSystem/Icons/filter_utility.png")))
+                if (icon_filter_utility == null)
                 {
                     errors += "filter_utility.png ";
                     isValid = false;
@@ -173,7 +189,7 @@ namespace PlanetarySurfaceStructures
             }
             catch (Exception e)
             {
-                Debug.LogError("[KPBS] ERROR EXC loading Images" + e.Message);
+                Debug.LogError("[KPBS] ERROR EXC loading Images " + e.Message);
                 isValid = false;
             }
 
