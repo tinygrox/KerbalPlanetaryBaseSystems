@@ -75,7 +75,7 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 ![](https://i.imgur.com/qg9rZcs.png) Italiano by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)  
 
 ### Looking for help:  
-If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png), French ![](https://i.imgur.com/r27hbde.png) or Brazilian Portuguese ![](https://i.imgur.com/bYvpByj.png), please let me know!
+If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png) or Brazilian Portuguese ![](https://i.imgur.com/bYvpByj.png), please let me know!
 
 You can find all the texts that need translation here: [KPBS Texts](https://github.com/Nils277/KerbalPlanetaryBaseSystems/tree/master/Translation). (5916 Words)  
 
