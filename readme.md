@@ -72,7 +72,7 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 **Русский**	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
 **简体中文** by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)  
 **Deutsch** by [Nils277](https://forum.kerbalspaceprogram.com/index.php?/profile/122414-nils277/) and [DasSkelett](https://forum.kerbalspaceprogram.com/index.php?/profile/188118-dasskelett/)  
-**Italiano** by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)
+**Italiano** by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)  
 **Français** by [don-vip](https://github.com/don-vip)
 
 ### Looking for help:  
