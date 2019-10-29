@@ -68,11 +68,12 @@ You need [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50
 
 ## Translations
 
-![](http://i.imgur.com/cXO4NUi.png) Español  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
-![](http://i.imgur.com/mFRcn0a.png) Русский	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
-![](http://i.imgur.com/JyqfJ1P.png) 简体中文 by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)  
-![](http://i.imgur.com/SuHOnKm.png) Deutsch by [Nils277](https://forum.kerbalspaceprogram.com/index.php?/profile/122414-nils277/) and [DasSkelett](https://forum.kerbalspaceprogram.com/index.php?/profile/188118-dasskelett/)  
-![](https://i.imgur.com/qg9rZcs.png) Italiano by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)  
+**Español**  	by [Rafael acevedo](http://forum.kerbalspaceprogram.com/index.php?/profile/84946-rafael-acevedo/) and [fitiales](http://forum.kerbalspaceprogram.com/index.php?/profile/66011-fitiales/)  
+**Русский**	by [Dr. Jet](http://forum.kerbalspaceprogram.com/index.php?/profile/99880-dr-jet/)  
+**简体中文** by [vosskftw](https://forum.kerbalspaceprogram.com/index.php?/profile/175031-vosskftw/) and [q654517651](https://forum.kerbalspaceprogram.com/index.php?/profile/180000-q654517651/)  
+**Deutsch** by [Nils277](https://forum.kerbalspaceprogram.com/index.php?/profile/122414-nils277/) and [DasSkelett](https://forum.kerbalspaceprogram.com/index.php?/profile/188118-dasskelett/)  
+**Italiano** by [Simog](https://forum.kerbalspaceprogram.com/index.php?/profile/174461-sebra/)
+**Français** by [don-vip](https://github.com/don-vip)
 
 ### Looking for help:  
 If anyone is interested to translate KPBS into Japanese ![](http://i.imgur.com/M93S44Z.png) or Brazilian Portuguese ![](https://i.imgur.com/bYvpByj.png), please let me know!
